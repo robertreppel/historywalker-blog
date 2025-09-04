@@ -8,7 +8,7 @@ This is the History Walker Blog, a place dedicated to exploring the fascinating 
 
 ## What You'll Find Here
 
-- Historical deep dives and other things
+- Historical deep dives
 - Analysis of historical events
 - Connections between past and present
 - Research and insights
