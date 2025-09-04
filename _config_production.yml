@@ -1,0 +1,13 @@
+# Production configuration for CloudFlare Pages
+url: "https://historywalker.com"
+environment: production
+
+# Disable incremental builds in production
+incremental: false
+
+# Optimize for production
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: [html, head, body]
