@@ -16,3 +16,8 @@ plugins:
 
 # Minimal Mistakes theme settings
 minimal_mistakes_skin: "default"
+
+# Force sassc instead of sass-embedded for better compatibility
+sass:
+  sass_dir: _sass
+  style: compressed

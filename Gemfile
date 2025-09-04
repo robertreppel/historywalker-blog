@@ -4,6 +4,9 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.0"
 gem "minimal-mistakes-jekyll", "~> 4.27.0"
 
+# Use sassc instead of sass-embedded for better compatibility
+gem "sassc", "~> 2.4"
+
 # Jekyll plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
