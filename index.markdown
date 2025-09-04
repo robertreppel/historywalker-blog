@@ -1,6 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+author_profile: true
 ---
+
+Welcome to the History Walker Blog! This is a place where we explore the fascinating stories of the past and discover how history shapes our present.

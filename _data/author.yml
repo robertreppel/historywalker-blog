@@ -1,0 +1,9 @@
+name: "History Walker"
+bio: "Exploring the fascinating stories of history"
+avatar: "/assets/images/bio-photo.jpg"
+location: "United States"
+email: "your-email@example.com"
+links:
+  - label: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/robertreppel"

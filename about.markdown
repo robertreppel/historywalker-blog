@@ -1,18 +1,22 @@
 ---
-layout: page
-title: About
+layout: single
+title: "About"
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is the History Walker Blog, a place dedicated to exploring the fascinating stories of history and how they connect to our modern world.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## What You'll Find Here
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- Historical deep dives
+- Analysis of historical events
+- Connections between past and present
+- Research and insights
 
+## About the Author
 
-[jekyll-organization]: https://github.com/jekyll
+I'm passionate about history and love sharing the stories that have shaped our world. Through this blog, I hope to make history accessible and engaging for everyone.
+
+---
+
+*This site is built with Jekyll and the Minimal Mistakes theme.*

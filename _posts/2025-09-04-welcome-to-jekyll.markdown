@@ -1,29 +1,37 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-09-04 13:03:51 -0500
-categories: jekyll update
+layout: single
+title: "Welcome to the History Walker Blog!"
+date: 2025-09-04 13:03:51 -0500
+categories: [welcome, history]
+tags: [welcome, blog, history]
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Welcome to the History Walker Blog! This is your first post in what will be an exciting journey through the annals of history.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## What to Expect
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+You'll find engaging content about:
 
-Jekyll also offers powerful support for code snippets:
+- **Historical Events**: Deep dives into significant moments in history
+- **Historical Figures**: Stories about the people who shaped our world
+- **Historical Analysis**: Understanding how the past influences the present
+- **Research Insights**: Behind-the-scenes looks at historical research
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+## Getting Started
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+This blog is built with Jekyll and uses the Minimal Mistakes theme, making it easy to:
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+- Read and navigate content
+- Search through posts
+- Subscribe to updates
+- Share interesting articles
+
+## Stay Connected
+
+Be sure to check back regularly for new content, and don't hesitate to reach out if you have questions or suggestions for future topics.
+
+Happy reading!
+
+---
+
+*This is a sample post to get you started. Feel free to edit or delete it and create your own content!*

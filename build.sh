@@ -1,8 +1,10 @@
 #!/bin/bash
 set -e
 
-# Install dependencies
+echo "Installing dependencies..."
 bundle install
 
-# Build the site
+echo "Building Jekyll site..."
 bundle exec jekyll build
+
+echo "Build complete!"
