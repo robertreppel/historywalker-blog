@@ -1,0 +1,40 @@
+# This configuration is for a site hosted on Netlify with a Git-based backend.
+backend:
+  name: git-gateway
+  branch: main # Change this to your main branch if it's not 'main'
+
+# This section configures where media files (images, etc.) are saved
+# and where they can be accessed on your site.
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+# Define the content "collections" that Decap CMS will manage.
+collections:
+  - name: "posts" # The name of the collection.
+    label: "Posts" # The label displayed in the UI.
+    folder: "_posts" # The directory where your posts are stored.
+    create: true # Allow users to create new posts.
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Defines the post's filename.
+    fields: # The fields that will appear in the editor.
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+      - { label: "Author Profile", name: "author_profile", widget: "boolean", default: true }
+      - { label: "Read Time", name: "read_time", widget: "boolean", default: true }
+      - { label: "Comments", name: "comments", widget: "boolean", default: true }
+      - { label: "Share", name: "share", widget: "boolean", default: true }
+      - { label: "Categories", name: "categories", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages" # Collection for static pages.
+    label: "Pages"
+    files: # We specify individual files to manage.
+      - label: "About Page"
+        name: "about"
+        file: "about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "single" }
+          - { label: "Body", name: "body", widget: "markdown" }
+

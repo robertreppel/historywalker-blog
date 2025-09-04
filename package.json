@@ -1,0 +1,15 @@
+{
+  "name": "historywalker-blog",
+  "version": "1.0.0",
+  "description": "History Walker Blog",
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertreppel/historywalker-blog.git"
+  },
+  "author": "Robert Reppel",
+  "license": "MIT"
+}
